@@ -1,0 +1,27 @@
+speed_vector = 0;
+x_velocity = 0;
+y_velocity = 0;
+jumps = 1;
+max_jumps = 1;
+max_speed = 24;
+jump_buffer = 0;
+dash_speed = 24;
+mov_friction = 1;
+dash_timer = 0;
+hor_dir = 1;
+tether_distance = 0;
+tether_angle = 0;
+ydist = 0;
+xdist = 0;
+tether_status = 0;
+grapple_loc = [0, 0];
+tether_timer = 0;
+fullscreen = true;
+grapple_checkx = ds_list_create();
+grapple_checky = ds_list_create();
+grapple_force = 50
+x = room_width / 2;
+y = room_height / 2;
+window_set_fullscreen(fullscreen)
+global.spee = 0;
+view_camera[0] = camera_create_view(0,0, room_width, room_height)
